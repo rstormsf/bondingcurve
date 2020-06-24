@@ -1,0 +1,8 @@
+node_modules
+types
+coverage
+coverage.json
+.secret
+.infura
+.DS_Store
+build

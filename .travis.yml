@@ -1,0 +1,14 @@
+language: node_js
+
+node_js:
+  - 12
+
+install:
+  - yarn global add codecov
+
+script:
+  - touch .infura
+  - touch .secret
+  - yarn install
+  - yarn coverage
+  - codecov
