@@ -1,9 +1,9 @@
 {
-  "name": "solidity-typescript-template",
+  "name": "token",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/ilyakmet/solidity-typescript-template.git",
-  "author": "ilyakmet <ilyakmet@gmail.com>",
+  "repository": "https://github.com/tornadocash/token.git",
+  "author": "Tornado <hello@tornado.cash>",
   "license": "MIT",
   "scripts": {
     "compile": "npx truffle compile && npx typechain --target truffle './build/**/*.json'",
@@ -32,6 +32,7 @@
     "typescript": "^3.9.5"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^3.0.2"
+    "@openzeppelin/contracts": "^3.0.2",
+    "@openzeppelin/contracts-ethereum-package": "^2.5.0"
   }
 }
