@@ -32,7 +32,7 @@
     "typescript": "^3.9.5"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^3.0.2",
+    "@openzeppelin/contracts": "^4.4.2",
     "@openzeppelin/contracts-ethereum-package": "^2.5.0"
   }
 }
